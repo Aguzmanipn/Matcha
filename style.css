@@ -23,33 +23,17 @@ button {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0;
-  }
-  .header > * {
     display: inline-block;
-    font-size: 16px;
-  }
+    vertical-align: middle;
+    height: 45px;
+    line-height: 45px;
+    font-family: sans-serif;
+}
   .logo {
     width: 15%;
   }
   
   .navbar {
-    width: 70%;
-  }
-  
-  .actions {
-    width: 15%;
-}
-.header > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
-}
-  .logo > img {
-    width: 15%;
-}
-.navbar {
     width: 70%;
     text-align: center;
     color: #025157;
@@ -61,45 +45,23 @@ button {
     text-align: right;
     font-size: 14px;
     font-weight: 600;
-  }
-  .header {
-    margin: 40px 20px 0;
-    font-size: 0;
-  }
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+  .logo > img {
+    width: 15%;
+}
+
   .main {
     margin-top: 140px;
     text-align: center;
-  }
-  .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
-  }
-  
-  .navbar {
-    width: 70%;
-    text-align: center;
-    color: #025157;
   }
   
   .menu-item {
     display: inline;
     margin-right: 25px;
     margin-left: 25px;
-  }
-  
-  .actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-  }
-  
-  .actions > * {
-    margin-right: 10px;
-    margin-left: 10px;
   }
   
   .actions a {
@@ -115,4 +77,45 @@ button {
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
+  }
+   
+
+.publish > h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+.publish > form {
+    display: flex;
+  }
+  
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
   }
