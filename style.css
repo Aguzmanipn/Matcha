@@ -1,5 +1,5 @@
 body {
-    background-color: #bbb5da;
+    background-color: #fffbf7;
 }
 
 h1 {
@@ -41,42 +41,39 @@ button {
   }
   
   .actions {
-    width: 15%;
+    width: 50%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
     margin-right: 10px;
     margin-left: 10px;
 }
-
+.actions a {
+  color: #67b54b;
+  margin:auto
+}
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
   .logo > img {
     width: 15%;
 }
 
-  .main {
-    margin-top: 140px;
-    text-align: center;
-  }
-  
+.main {
+  margin-top: 285px;
+  text-align: center;
+}
   .menu-item {
     display: inline;
     margin-right: 25px;
     margin-left: 25px;
-  }
-  
-  .actions a {
-    color: #67b54b;
-  }
-  
-  .actions button {
-    color: white;
-    background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 0;
-    border-radius: 5px;
   }
    
 
@@ -118,4 +115,14 @@ button {
   .explanatory-video img {
     width: 120px;
     margin-top: 10px;
+  }
+  .fixed-header {
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #fffbf7
+    }
+
   }

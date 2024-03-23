@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "C:/Users/SebaxPC/Documents/matcha/index.html", // Cambia esto por la URL de tu página web
+            "webRoot": "C:/Users/SebaxPC/Documents/matcha" // Cambia esto por la ruta de tu proyecto
+        }
+    ]
+}
